@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  JFUtils
+//  JFUtilsDemo
 //
 //  Created by cjf on 2017/6/30.
 //  Copyright © 2017年 Jinfei Chen. All rights reserved.
