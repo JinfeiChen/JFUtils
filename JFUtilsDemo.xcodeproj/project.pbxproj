@@ -13,6 +13,7 @@
 		372A9CE61F06390A001C878F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372A9CE51F06390A001C878F /* Assets.xcassets */; };
 		372A9CE91F06390A001C878F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372A9CE71F06390A001C878F /* LaunchScreen.storyboard */; };
 		372A9CEC1F06390A001C878F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9CEB1F06390A001C878F /* main.m */; };
+		372A9D371F064D32001C878F /* JFDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9D351F064D32001C878F /* JFDevice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,62 @@
 		372A9CE81F06390A001C878F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		372A9CEA1F06390A001C878F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		372A9CEB1F06390A001C878F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		372A9CF41F064C58001C878F /* NSArray+JFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+JFExtension.h"; sourceTree = "<group>"; };
+		372A9CF51F064C58001C878F /* NSArray+JFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JFExtension.m"; sourceTree = "<group>"; };
+		372A9CF61F064C58001C878F /* NSData+JFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+JFExtension.h"; sourceTree = "<group>"; };
+		372A9CF71F064C58001C878F /* NSData+JFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+JFExtension.m"; sourceTree = "<group>"; };
+		372A9CF81F064C58001C878F /* NSDate+JFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+JFExtension.h"; sourceTree = "<group>"; };
+		372A9CF91F064C58001C878F /* NSDate+JFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JFExtension.m"; sourceTree = "<group>"; };
+		372A9CFA1F064C58001C878F /* NSDictionary+JFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JFExtension.h"; sourceTree = "<group>"; };
+		372A9CFB1F064C58001C878F /* NSDictionary+JFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JFExtension.m"; sourceTree = "<group>"; };
+		372A9CFC1F064C58001C878F /* NSString+JFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JFExtension.h"; sourceTree = "<group>"; };
+		372A9CFD1F064C58001C878F /* NSString+JFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JFExtension.m"; sourceTree = "<group>"; };
+		372A9CFE1F064C58001C878F /* UIButton+JFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+JFExtension.h"; sourceTree = "<group>"; };
+		372A9CFF1F064C58001C878F /* UIButton+JFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JFExtension.m"; sourceTree = "<group>"; };
+		372A9D001F064C58001C878F /* UIColor+JFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+JFExtension.h"; sourceTree = "<group>"; };
+		372A9D011F064C58001C878F /* UIColor+JFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JFExtension.m"; sourceTree = "<group>"; };
+		372A9D021F064C58001C878F /* UIImage+JFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+JFExtension.h"; sourceTree = "<group>"; };
+		372A9D031F064C58001C878F /* UIImage+JFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JFExtension.m"; sourceTree = "<group>"; };
+		372A9D041F064C58001C878F /* UIImageView+JFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JFExtension.h"; sourceTree = "<group>"; };
+		372A9D051F064C58001C878F /* UIImageView+JFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JFExtension.m"; sourceTree = "<group>"; };
+		372A9D061F064C58001C878F /* UILabel+JFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+JFExtension.h"; sourceTree = "<group>"; };
+		372A9D071F064C58001C878F /* UILabel+JFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+JFExtension.m"; sourceTree = "<group>"; };
+		372A9D081F064C58001C878F /* UIScrollView+JFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+JFExtension.h"; sourceTree = "<group>"; };
+		372A9D091F064C58001C878F /* UIScrollView+JFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+JFExtension.m"; sourceTree = "<group>"; };
+		372A9D0A1F064C58001C878F /* UITextField+JFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+JFExtension.h"; sourceTree = "<group>"; };
+		372A9D0B1F064C58001C878F /* UITextField+JFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+JFExtension.m"; sourceTree = "<group>"; };
+		372A9D0C1F064C58001C878F /* UIView+JFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JFExtension.h"; sourceTree = "<group>"; };
+		372A9D0D1F064C58001C878F /* UIView+JFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JFExtension.m"; sourceTree = "<group>"; };
+		372A9D111F064C58001C878F /* JFError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFError.h; sourceTree = "<group>"; };
+		372A9D121F064C58001C878F /* JFError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFError.m; sourceTree = "<group>"; };
+		372A9D141F064C58001C878F /* JFQuantityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFQuantityView.h; sourceTree = "<group>"; };
+		372A9D151F064C58001C878F /* JFQuantityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFQuantityView.m; sourceTree = "<group>"; };
+		372A9D171F064C58001C878F /* JFRadioButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFRadioButton.h; sourceTree = "<group>"; };
+		372A9D181F064C58001C878F /* JFRadioButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFRadioButton.m; sourceTree = "<group>"; };
+		372A9D1A1F064C58001C878F /* JFTagView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTagView.h; sourceTree = "<group>"; };
+		372A9D1B1F064C58001C878F /* JFTagView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTagView.m; sourceTree = "<group>"; };
+		372A9D1C1F064C58001C878F /* JFTagViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTagViewCell.h; sourceTree = "<group>"; };
+		372A9D1D1F064C58001C878F /* JFTagViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTagViewCell.m; sourceTree = "<group>"; };
+		372A9D201F064C58001C878F /* JFPicTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFPicTextView.h; sourceTree = "<group>"; };
+		372A9D211F064C58001C878F /* JFPicTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFPicTextView.m; sourceTree = "<group>"; };
+		372A9D221F064C58001C878F /* JFTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTextField.h; sourceTree = "<group>"; };
+		372A9D231F064C58001C878F /* JFTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTextField.m; sourceTree = "<group>"; };
+		372A9D251F064C58001C878F /* JFUtils+Crashlog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JFUtils+Crashlog.h"; sourceTree = "<group>"; };
+		372A9D261F064C58001C878F /* JFUtils+Crashlog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JFUtils+Crashlog.m"; sourceTree = "<group>"; };
+		372A9D271F064C58001C878F /* JFUtils+Persistence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JFUtils+Persistence.h"; sourceTree = "<group>"; };
+		372A9D281F064C58001C878F /* JFUtils+Persistence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JFUtils+Persistence.m"; sourceTree = "<group>"; };
+		372A9D291F064C58001C878F /* JFUtils+Timer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JFUtils+Timer.h"; sourceTree = "<group>"; };
+		372A9D2A1F064C58001C878F /* JFUtils+Timer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JFUtils+Timer.m"; sourceTree = "<group>"; };
+		372A9D2B1F064C58001C878F /* JFUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFUtils.h; sourceTree = "<group>"; };
+		372A9D2C1F064C58001C878F /* JFUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFUtils.m; sourceTree = "<group>"; };
+		372A9D2E1F064C58001C878F /* JFAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFAPI.h; sourceTree = "<group>"; };
+		372A9D2F1F064C58001C878F /* JFConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFConst.h; sourceTree = "<group>"; };
+		372A9D301F064C58001C878F /* JFConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFConst.m; sourceTree = "<group>"; };
+		372A9D311F064C58001C878F /* JFDEV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFDEV.h; sourceTree = "<group>"; };
+		372A9D321F064C58001C878F /* JFMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFMacros.h; sourceTree = "<group>"; };
+		372A9D331F064C58001C878F /* JFUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFUI.h; sourceTree = "<group>"; };
+		372A9D351F064D32001C878F /* JFDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JFDevice.m; path = "../../../../../pt_sdk_ios/仅内购/YWSDK/YWSDK/YWBehavior/JFDevice.m"; sourceTree = "<group>"; };
+		372A9D361F064D32001C878F /* JFDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JFDevice.h; path = "../../../../../pt_sdk_ios/仅内购/YWSDK/YWSDK/YWBehavior/JFDevice.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +99,7 @@
 		372A9CD01F06390A001C878F = {
 			isa = PBXGroup;
 			children = (
+				372A9CF21F064C58001C878F /* JFUtils */,
 				372A9CDB1F06390A001C878F /* JFUtilsDemo */,
 				372A9CDA1F06390A001C878F /* Products */,
 			);
@@ -69,6 +127,165 @@
 				372A9CEB1F06390A001C878F /* main.m */,
 			);
 			path = JFUtilsDemo;
+			sourceTree = "<group>";
+		};
+		372A9CF21F064C58001C878F /* JFUtils */ = {
+			isa = PBXGroup;
+			children = (
+				372A9CF31F064C58001C878F /* JFCategories */,
+				372A9D0E1F064C58001C878F /* JFCustom */,
+				372A9D241F064C58001C878F /* JFHelper */,
+				372A9D2D1F064C58001C878F /* JFMacros */,
+			);
+			path = JFUtils;
+			sourceTree = "<group>";
+		};
+		372A9CF31F064C58001C878F /* JFCategories */ = {
+			isa = PBXGroup;
+			children = (
+				372A9CF41F064C58001C878F /* NSArray+JFExtension.h */,
+				372A9CF51F064C58001C878F /* NSArray+JFExtension.m */,
+				372A9CF61F064C58001C878F /* NSData+JFExtension.h */,
+				372A9CF71F064C58001C878F /* NSData+JFExtension.m */,
+				372A9CF81F064C58001C878F /* NSDate+JFExtension.h */,
+				372A9CF91F064C58001C878F /* NSDate+JFExtension.m */,
+				372A9CFA1F064C58001C878F /* NSDictionary+JFExtension.h */,
+				372A9CFB1F064C58001C878F /* NSDictionary+JFExtension.m */,
+				372A9CFC1F064C58001C878F /* NSString+JFExtension.h */,
+				372A9CFD1F064C58001C878F /* NSString+JFExtension.m */,
+				372A9CFE1F064C58001C878F /* UIButton+JFExtension.h */,
+				372A9CFF1F064C58001C878F /* UIButton+JFExtension.m */,
+				372A9D001F064C58001C878F /* UIColor+JFExtension.h */,
+				372A9D011F064C58001C878F /* UIColor+JFExtension.m */,
+				372A9D021F064C58001C878F /* UIImage+JFExtension.h */,
+				372A9D031F064C58001C878F /* UIImage+JFExtension.m */,
+				372A9D041F064C58001C878F /* UIImageView+JFExtension.h */,
+				372A9D051F064C58001C878F /* UIImageView+JFExtension.m */,
+				372A9D061F064C58001C878F /* UILabel+JFExtension.h */,
+				372A9D071F064C58001C878F /* UILabel+JFExtension.m */,
+				372A9D081F064C58001C878F /* UIScrollView+JFExtension.h */,
+				372A9D091F064C58001C878F /* UIScrollView+JFExtension.m */,
+				372A9D0A1F064C58001C878F /* UITextField+JFExtension.h */,
+				372A9D0B1F064C58001C878F /* UITextField+JFExtension.m */,
+				372A9D0C1F064C58001C878F /* UIView+JFExtension.h */,
+				372A9D0D1F064C58001C878F /* UIView+JFExtension.m */,
+			);
+			path = JFCategories;
+			sourceTree = "<group>";
+		};
+		372A9D0E1F064C58001C878F /* JFCustom */ = {
+			isa = PBXGroup;
+			children = (
+				372A9D341F064CBE001C878F /* JFDevice */,
+				372A9D0F1F064C58001C878F /* JFCheckButton */,
+				372A9D101F064C58001C878F /* JFClasses */,
+				372A9D131F064C58001C878F /* JFQuantityView */,
+				372A9D161F064C58001C878F /* JFRadioButton */,
+				372A9D191F064C58001C878F /* JFTagView */,
+				372A9D1E1F064C58001C878F /* JFViewControllers */,
+				372A9D1F1F064C58001C878F /* JFViews */,
+			);
+			path = JFCustom;
+			sourceTree = "<group>";
+		};
+		372A9D0F1F064C58001C878F /* JFCheckButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JFCheckButton;
+			sourceTree = "<group>";
+		};
+		372A9D101F064C58001C878F /* JFClasses */ = {
+			isa = PBXGroup;
+			children = (
+				372A9D111F064C58001C878F /* JFError.h */,
+				372A9D121F064C58001C878F /* JFError.m */,
+			);
+			path = JFClasses;
+			sourceTree = "<group>";
+		};
+		372A9D131F064C58001C878F /* JFQuantityView */ = {
+			isa = PBXGroup;
+			children = (
+				372A9D141F064C58001C878F /* JFQuantityView.h */,
+				372A9D151F064C58001C878F /* JFQuantityView.m */,
+			);
+			path = JFQuantityView;
+			sourceTree = "<group>";
+		};
+		372A9D161F064C58001C878F /* JFRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				372A9D171F064C58001C878F /* JFRadioButton.h */,
+				372A9D181F064C58001C878F /* JFRadioButton.m */,
+			);
+			path = JFRadioButton;
+			sourceTree = "<group>";
+		};
+		372A9D191F064C58001C878F /* JFTagView */ = {
+			isa = PBXGroup;
+			children = (
+				372A9D1A1F064C58001C878F /* JFTagView.h */,
+				372A9D1B1F064C58001C878F /* JFTagView.m */,
+				372A9D1C1F064C58001C878F /* JFTagViewCell.h */,
+				372A9D1D1F064C58001C878F /* JFTagViewCell.m */,
+			);
+			path = JFTagView;
+			sourceTree = "<group>";
+		};
+		372A9D1E1F064C58001C878F /* JFViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JFViewControllers;
+			sourceTree = "<group>";
+		};
+		372A9D1F1F064C58001C878F /* JFViews */ = {
+			isa = PBXGroup;
+			children = (
+				372A9D201F064C58001C878F /* JFPicTextView.h */,
+				372A9D211F064C58001C878F /* JFPicTextView.m */,
+				372A9D221F064C58001C878F /* JFTextField.h */,
+				372A9D231F064C58001C878F /* JFTextField.m */,
+			);
+			path = JFViews;
+			sourceTree = "<group>";
+		};
+		372A9D241F064C58001C878F /* JFHelper */ = {
+			isa = PBXGroup;
+			children = (
+				372A9D251F064C58001C878F /* JFUtils+Crashlog.h */,
+				372A9D261F064C58001C878F /* JFUtils+Crashlog.m */,
+				372A9D271F064C58001C878F /* JFUtils+Persistence.h */,
+				372A9D281F064C58001C878F /* JFUtils+Persistence.m */,
+				372A9D291F064C58001C878F /* JFUtils+Timer.h */,
+				372A9D2A1F064C58001C878F /* JFUtils+Timer.m */,
+				372A9D2B1F064C58001C878F /* JFUtils.h */,
+				372A9D2C1F064C58001C878F /* JFUtils.m */,
+			);
+			path = JFHelper;
+			sourceTree = "<group>";
+		};
+		372A9D2D1F064C58001C878F /* JFMacros */ = {
+			isa = PBXGroup;
+			children = (
+				372A9D2E1F064C58001C878F /* JFAPI.h */,
+				372A9D2F1F064C58001C878F /* JFConst.h */,
+				372A9D301F064C58001C878F /* JFConst.m */,
+				372A9D311F064C58001C878F /* JFDEV.h */,
+				372A9D321F064C58001C878F /* JFMacros.h */,
+				372A9D331F064C58001C878F /* JFUI.h */,
+			);
+			path = JFMacros;
+			sourceTree = "<group>";
+		};
+		372A9D341F064CBE001C878F /* JFDevice */ = {
+			isa = PBXGroup;
+			children = (
+				372A9D361F064D32001C878F /* JFDevice.h */,
+				372A9D351F064D32001C878F /* JFDevice.m */,
+			);
+			path = JFDevice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				372A9CE11F06390A001C878F /* ViewController.m in Sources */,
+				372A9D371F064D32001C878F /* JFDevice.m in Sources */,
 				372A9CEC1F06390A001C878F /* main.m in Sources */,
 				372A9CDE1F06390A001C878F /* AppDelegate.m in Sources */,
 			);
@@ -314,6 +532,7 @@
 				372A9CF11F06390A001C878F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

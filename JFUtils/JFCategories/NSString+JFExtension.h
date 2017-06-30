@@ -43,34 +43,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (nullable NSString *)getCurrentTimestamp;
 
-/**
- CJF - 获取BundleId
- 
- @return BundleId
- */
-+ (nullable NSString *)getBundleId;
-
-/**
- CJF - 获取Bundle版本号
- 
- @return BundleVersion
- */
-+ (nullable NSString *)getBundleVersion;
-
-/**
- CJF - 获取App名字
- 
- @return AppName
- */
-+ (nullable NSString *)getAppName;
-
-/**
- CJF - 获取Build版本号
- 
- @return BuildVersion
- */
-+ (nullable NSString *)getBuildVersion;
-
 @end
 
 
@@ -270,6 +242,145 @@ NS_ASSUME_NONNULL_BEGIN
  @return 加密后的字符串
  */
 - (nullable NSString *)base64;
+
+@end
+
+
+
+@interface NSString (JFDevice)
+
+/**
+ CJF - 获取BundleId
+ 
+ @return BundleId
+ */
++ (NSString *)getBundleId;
+
+/**
+ CJF - 获取Bundle版本号
+ 
+ @return BundleVersion
+ */
++ (NSString *)getBundleVersion;
+
+/**
+ CJF - 获取App名字
+ 
+ @return AppName
+ */
++ (NSString *)getAppName;
+
+/**
+ CJF - 获取Build版本号
+ 
+ @return BuildVersion
+ */
++ (NSString *)getBuildVersion;
+
+/**
+ CJF - 获取设备版本号
+ 
+ @return e.g. iPhone 5S
+ */
++ (NSString *)getDeviceVersion;
+
+/**
+ CJF - 获取设备名称
+ 
+ @return 名称
+ */
++ (NSString *)getDeviceName;
+
+/**
+ CJF - 获取设备电量
+ 
+ @return 电量
+ */
++ (NSInteger)getDeviceBatteryLevel;
+
+/**
+ CJF - 获取设备模式
+ 
+ @return 模式
+ */
++ (NSString *)getDeviceModel;
+
+/**
+ CJF - 获取设备本地模式
+ 
+ @return 模式
+ */
++ (NSString *)getDeviceLocalizeModel;
+
+/**
+ CJF - 获取设备当前系统名称
+ 
+ @return 系统名称
+ */
++ (NSString *)getDeviceSystemName;
+
+/**
+ CJF - 获取设备当前系统版本
+ 
+ @return 版本
+ */
++ (NSString *)getDeviceSystemVersion;
+
+/**
+ CJF - 获取设备广告标识
+ 
+ @return 标识
+ */
++ (NSString *)getDeviceIDFA;
+
+/**
+ CJF - 获取设备IDFV标识
+ 
+ @return IDFV
+ */
++ (NSString *)getDeviceIDFV;
+
+/**
+ CJF - 获取设备当前语言
+ 
+ @return 语言
+ */
++ (NSString *)getDeviceLanguage;
+
+/**
+ CJF - 获取设备当前国家
+ 
+ @return 国家
+ */
++ (NSString *)getDeviceCountry;
+
+/**
+ CJF - 获取设备总内存大小
+ 
+ @return 内存大小
+ */
++ (NSInteger)getDeviceTotalMemorySize;
+
+/**
+ CJF - 获取运营商名称
+ 
+ @return 名称
+ */
++ (NSString *)getDeviceCarrierName;
+
+/**
+ CJF - 获取wifi的名称
+ 
+ @return 名称
+ */
++ (NSString *)getWifiName;
+
+/**
+ CJF - 获取当前连接wifi的IP地址
+ 
+ @return 地址
+ */
++ (nullable NSString *)getIPAddress;
 
 @end
 
