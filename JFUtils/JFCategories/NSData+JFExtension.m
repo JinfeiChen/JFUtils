@@ -13,10 +13,8 @@
 
 @end
 
-
-@implementation NSData (JFEncryption)
-
 static const char base64EncodingTable[64] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+/*
 static const short base64DecodingTable[256] = {
     -2, -2, -2, -2, -2, -2, -2, -2, -2, -1, -1, -2,  -1,  -1, -2, -2,
     -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2,  -2,  -2, -2, -2,
@@ -35,6 +33,9 @@ static const short base64DecodingTable[256] = {
     -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2,  -2,  -2, -2, -2,
     -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2, -2,  -2,  -2, -2, -2
 };
+ */
+
+@implementation NSData (JFEncryption)
 
 - (NSString *)base64 {
     

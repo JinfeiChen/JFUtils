@@ -13,7 +13,32 @@
 		372A9CE61F06390A001C878F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372A9CE51F06390A001C878F /* Assets.xcassets */; };
 		372A9CE91F06390A001C878F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372A9CE71F06390A001C878F /* LaunchScreen.storyboard */; };
 		372A9CEC1F06390A001C878F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9CEB1F06390A001C878F /* main.m */; };
-		372A9D371F064D32001C878F /* JFDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9D351F064D32001C878F /* JFDevice.m */; };
+		373C34971F15CB4400F3E56A /* NSArray+JFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9CF51F064C58001C878F /* NSArray+JFExtension.m */; };
+		373C34981F15CB4400F3E56A /* NSData+JFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9CF71F064C58001C878F /* NSData+JFExtension.m */; };
+		373C34991F15CB4400F3E56A /* NSDate+JFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9CF91F064C58001C878F /* NSDate+JFExtension.m */; };
+		373C349A1F15CB4400F3E56A /* NSDictionary+JFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9CFB1F064C58001C878F /* NSDictionary+JFExtension.m */; };
+		373C349B1F15CB4400F3E56A /* NSString+JFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9CFD1F064C58001C878F /* NSString+JFExtension.m */; };
+		373C349C1F15CB4400F3E56A /* UIButton+JFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9CFF1F064C58001C878F /* UIButton+JFExtension.m */; };
+		373C349D1F15CB4400F3E56A /* UIColor+JFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9D011F064C58001C878F /* UIColor+JFExtension.m */; };
+		373C349E1F15CB4400F3E56A /* UIImage+JFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9D031F064C58001C878F /* UIImage+JFExtension.m */; };
+		373C349F1F15CB4400F3E56A /* UIImageView+JFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9D051F064C58001C878F /* UIImageView+JFExtension.m */; };
+		373C34A01F15CB4400F3E56A /* UILabel+JFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9D071F064C58001C878F /* UILabel+JFExtension.m */; };
+		373C34A11F15CB4400F3E56A /* UIScrollView+JFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9D091F064C58001C878F /* UIScrollView+JFExtension.m */; };
+		373C34A21F15CB4400F3E56A /* UITextField+JFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9D0B1F064C58001C878F /* UITextField+JFExtension.m */; };
+		373C34A31F15CB4400F3E56A /* UIView+JFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9D0D1F064C58001C878F /* UIView+JFExtension.m */; };
+		373C34A41F15CB4400F3E56A /* JFDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9D351F064D32001C878F /* JFDevice.m */; };
+		373C34A51F15CB4400F3E56A /* JFError.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9D121F064C58001C878F /* JFError.m */; };
+		373C34A61F15CB4400F3E56A /* JFQuantityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9D151F064C58001C878F /* JFQuantityView.m */; };
+		373C34A71F15CB4400F3E56A /* JFRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9D181F064C58001C878F /* JFRadioButton.m */; };
+		373C34A81F15CB4400F3E56A /* JFTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9D1B1F064C58001C878F /* JFTagView.m */; };
+		373C34A91F15CB4400F3E56A /* JFTagViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9D1D1F064C58001C878F /* JFTagViewCell.m */; };
+		373C34AA1F15CB4400F3E56A /* JFPicTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9D211F064C58001C878F /* JFPicTextView.m */; };
+		373C34AB1F15CB4400F3E56A /* JFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9D231F064C58001C878F /* JFTextField.m */; };
+		373C34AC1F15CB4400F3E56A /* JFUtils+Crashlog.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9D261F064C58001C878F /* JFUtils+Crashlog.m */; };
+		373C34AD1F15CB4400F3E56A /* JFUtils+Persistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9D281F064C58001C878F /* JFUtils+Persistence.m */; };
+		373C34AE1F15CB4400F3E56A /* JFUtils+Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9D2A1F064C58001C878F /* JFUtils+Timer.m */; };
+		373C34AF1F15CB4400F3E56A /* JFUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9D2C1F064C58001C878F /* JFUtils.m */; };
+		373C34B01F15CB4400F3E56A /* JFConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A9D301F064C58001C878F /* JFConst.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +108,7 @@
 		372A9D331F064C58001C878F /* JFUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFUI.h; sourceTree = "<group>"; };
 		372A9D351F064D32001C878F /* JFDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JFDevice.m; path = "../../../../../pt_sdk_ios/仅内购/YWSDK/YWSDK/YWBehavior/JFDevice.m"; sourceTree = "<group>"; };
 		372A9D361F064D32001C878F /* JFDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JFDevice.h; path = "../../../../../pt_sdk_ios/仅内购/YWSDK/YWSDK/YWBehavior/JFDevice.h"; sourceTree = "<group>"; };
+		373C34961F15C34800F3E56A /* JFCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFCategories.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +195,7 @@
 				372A9D0B1F064C58001C878F /* UITextField+JFExtension.m */,
 				372A9D0C1F064C58001C878F /* UIView+JFExtension.h */,
 				372A9D0D1F064C58001C878F /* UIView+JFExtension.m */,
+				373C34961F15C34800F3E56A /* JFCategories.h */,
 			);
 			path = JFCategories;
 			sourceTree = "<group>";
@@ -358,8 +385,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				373C34971F15CB4400F3E56A /* NSArray+JFExtension.m in Sources */,
+				373C34981F15CB4400F3E56A /* NSData+JFExtension.m in Sources */,
+				373C34991F15CB4400F3E56A /* NSDate+JFExtension.m in Sources */,
+				373C349A1F15CB4400F3E56A /* NSDictionary+JFExtension.m in Sources */,
+				373C349B1F15CB4400F3E56A /* NSString+JFExtension.m in Sources */,
+				373C349C1F15CB4400F3E56A /* UIButton+JFExtension.m in Sources */,
+				373C349D1F15CB4400F3E56A /* UIColor+JFExtension.m in Sources */,
+				373C349E1F15CB4400F3E56A /* UIImage+JFExtension.m in Sources */,
+				373C349F1F15CB4400F3E56A /* UIImageView+JFExtension.m in Sources */,
+				373C34A01F15CB4400F3E56A /* UILabel+JFExtension.m in Sources */,
+				373C34A11F15CB4400F3E56A /* UIScrollView+JFExtension.m in Sources */,
+				373C34A21F15CB4400F3E56A /* UITextField+JFExtension.m in Sources */,
+				373C34A31F15CB4400F3E56A /* UIView+JFExtension.m in Sources */,
+				373C34A41F15CB4400F3E56A /* JFDevice.m in Sources */,
+				373C34A51F15CB4400F3E56A /* JFError.m in Sources */,
+				373C34A61F15CB4400F3E56A /* JFQuantityView.m in Sources */,
+				373C34A71F15CB4400F3E56A /* JFRadioButton.m in Sources */,
+				373C34A81F15CB4400F3E56A /* JFTagView.m in Sources */,
+				373C34A91F15CB4400F3E56A /* JFTagViewCell.m in Sources */,
+				373C34AA1F15CB4400F3E56A /* JFPicTextView.m in Sources */,
+				373C34AB1F15CB4400F3E56A /* JFTextField.m in Sources */,
+				373C34AC1F15CB4400F3E56A /* JFUtils+Crashlog.m in Sources */,
+				373C34AD1F15CB4400F3E56A /* JFUtils+Persistence.m in Sources */,
+				373C34AE1F15CB4400F3E56A /* JFUtils+Timer.m in Sources */,
+				373C34AF1F15CB4400F3E56A /* JFUtils.m in Sources */,
+				373C34B01F15CB4400F3E56A /* JFConst.m in Sources */,
 				372A9CE11F06390A001C878F /* ViewController.m in Sources */,
-				372A9D371F064D32001C878F /* JFDevice.m in Sources */,
 				372A9CEC1F06390A001C878F /* main.m in Sources */,
 				372A9CDE1F06390A001C878F /* AppDelegate.m in Sources */,
 			);
@@ -493,6 +545,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D3CT3NTD53;
 				INFOPLIST_FILE = JFUtilsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.5399.JFUtilsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -506,6 +559,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D3CT3NTD53;
 				INFOPLIST_FILE = JFUtilsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.5399.JFUtilsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

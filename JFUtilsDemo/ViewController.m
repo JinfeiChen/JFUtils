@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "JFCategories.h"
+
 @interface ViewController ()
 
 @end
@@ -16,7 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+//    NSLog(@"%@", [NSString getIPAddressOfInsideNetwork:NO]);
+    NSLog(@"%@", [NSString getIPAddressOfOutsideNetwork]);
 }
 
 

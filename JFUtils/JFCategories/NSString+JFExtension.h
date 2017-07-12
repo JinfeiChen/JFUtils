@@ -376,11 +376,20 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)getWifiName;
 
 /**
- CJF - 获取当前连接wifi的IP地址
+ CJF - 获取内网IP地址
+ 注意：此方法通用，无论是wifi还是流量都能获取到IP地址
  
- @return 地址
+ @param preferIPv4 是否为IPv4网络
+ @return ip地址
  */
-+ (nullable NSString *)getIPAddress;
++ (NSString *)getIPAddressOfInsideNetwork: (BOOL)preferIPv4;
+
+/**
+ CJF - 获取外网IP地址
+
+ @return ip地址
+ */
++ (NSString *)getIPAddressOfOutsideNetwork;
 
 @end
 
